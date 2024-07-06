@@ -1,0 +1,33 @@
+body {
+  background-color: aquamarine;
+}
+
+.container {
+  max-width: 600px;
+}
+
+.btn {
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background: #222;
+  color: #fff;
+  border: none;
+}
+
+#next-button {
+  padding: 0.5rem 4rem;
+  background-color: mediumblue;
+  color: white;
+  border: none;
+  display: none;
+}
+
+#next-button:hover {
+  background-color: rgb(15, 15, 208);
+}
+
+#next-button:active {
+  background-color: rgb(25, 25, 212);
+}
